@@ -42,13 +42,4 @@ public void depositAmount(double depositAmount){
 }
 
 
-@Override
-public void viewMiniStatement(){
-    for(Map.Entry<Double,String> m:ministat.entrySet() ){
-        System.out.println(m.getKey()+""+m.getValue());
-    }
-
-}
-
-
 }

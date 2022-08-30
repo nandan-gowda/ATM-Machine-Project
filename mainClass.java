@@ -21,7 +21,7 @@ public class mainClass {
             System.out.println("Aunthetication Successful");
            
             while(true){
-                System.out.println("1.View Balance\n2.Withdraw Amount\n3.Deposit Cash\n4.View ministatement\n5.Exit ");
+                System.out.println("1.View Balance\n2.Withdraw Amount\n3.Deposit Cash\n4.Exit ");
                 System.out.println("Enter your choice");
                 int ch = sc.nextInt();
                
@@ -41,11 +41,8 @@ public class mainClass {
                     op.depositAmount(depositAmount);
                 
                 }
+                
                 else if(ch==4){
-                    op.viewMiniStatement();
-
-                }
-                else if(ch==5){
                     System.out.println("Collect Yout ATM Card\n Thank You!!");
                     System.exit(0);
 
